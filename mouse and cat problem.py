@@ -5,10 +5,10 @@ import os
 import random
 import re
 import sys
-
+# frist file added to github 
 # Complete the catAndMouse function below.
 def catAndMouse(x, y, z):
-    disa = abs(z-x)
+    disa = abs(z-x)  
     disb = abs(z-y)
     if disa > disb :
         return "Cat B"
